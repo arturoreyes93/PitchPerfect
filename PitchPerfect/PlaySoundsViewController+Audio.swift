@@ -118,7 +118,7 @@ extension PlaySoundsViewController: AVAudioPlayerDelegate {
         }
     }
     
-    @objc func stopAudio() {
+    func stopAudio() {
         
         if let stopTimer = stopTimer {
             stopTimer.invalidate()
