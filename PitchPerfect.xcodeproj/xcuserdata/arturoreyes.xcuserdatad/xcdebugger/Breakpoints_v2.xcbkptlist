@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PitchPerfect/ViewController.swift"
+            timestampString = "498789029.175802"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "stopRecording(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PitchPerfect/ViewController.swift"
+            timestampString = "498791974.962154"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "recordAudio(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PitchPerfect/PlaySoundsViewController.swift"
+            timestampString = "533085999.853336"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "PlaySoundsViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PitchPerfect.PlaySoundsViewController.stopTimer.getter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.Timer&gt;"
+                  moduleName = "PitchPerfect"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arturoreyes/Documents/Developer/Udacity/iOS/PitchPerfect/PitchPerfect/PlaySoundsViewController.swift"
+                  timestampString = "533086003.833078"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PitchPerfect.PlaySoundsViewController.stopTimer.setter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.Timer&gt;"
+                  moduleName = "PitchPerfect"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arturoreyes/Documents/Developer/Udacity/iOS/PitchPerfect/PitchPerfect/PlaySoundsViewController.swift"
+                  timestampString = "533086003.835859"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PitchPerfect.PlaySoundsViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; PitchPerfect.PlaySoundsViewController"
+                  moduleName = "PitchPerfect"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arturoreyes/Documents/Developer/Udacity/iOS/PitchPerfect/PitchPerfect/PlaySoundsViewController.swift"
+                  timestampString = "533086003.837762"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "1044">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PitchPerfect.PlaySoundsViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;PitchPerfect.PlaySoundsViewController&gt;"
+                  moduleName = "PitchPerfect"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arturoreyes/Documents/Developer/Udacity/iOS/PitchPerfect/PitchPerfect/PlaySoundsViewController.swift"
+                  timestampString = "533086003.839405"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "1000">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PitchPerfect/PlaySoundsViewController.swift"
+            timestampString = "533085999.853792"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

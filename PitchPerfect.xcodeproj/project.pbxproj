@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		DD220C701DA07591008CECAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD220C6F1DA07591008CECAA /* AppDelegate.swift */; };
-		DD220C721DA07591008CECAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD220C711DA07591008CECAA /* ViewController.swift */; };
+		DD220C721DA07591008CECAA /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD220C711DA07591008CECAA /* RecordSoundsViewController.swift */; };
 		DD220C751DA07591008CECAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD220C731DA07591008CECAA /* Main.storyboard */; };
 		DD220C771DA07591008CECAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD220C761DA07591008CECAA /* Assets.xcassets */; };
 		DD220C7A1DA07591008CECAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD220C781DA07591008CECAA /* LaunchScreen.storyboard */; };
 		DD220C851DA07592008CECAA /* PitchPerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD220C841DA07592008CECAA /* PitchPerfectTests.swift */; };
 		DD220C901DA07592008CECAA /* PitchPerfectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD220C8F1DA07592008CECAA /* PitchPerfectUITests.swift */; };
+		DDB7FFE81DBC149A00E6BDC9 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB7FFE71DBC149A00E6BDC9 /* PlaySoundsViewController.swift */; };
+		DDB7FFEA1DBC30AA00E6BDC9 /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB7FFE91DBC30AA00E6BDC9 /* PlaySoundsViewController+Audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		DD220C6C1DA07591008CECAA /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD220C6F1DA07591008CECAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DD220C711DA07591008CECAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD220C711DA07591008CECAA /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		DD220C741DA07591008CECAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD220C761DA07591008CECAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD220C791DA07591008CECAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		DD220C8B1DA07592008CECAA /* PitchPerfectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PitchPerfectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD220C8F1DA07592008CECAA /* PitchPerfectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchPerfectUITests.swift; sourceTree = "<group>"; };
 		DD220C911DA07592008CECAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDB7FFE71DBC149A00E6BDC9 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		DDB7FFE91DBC30AA00E6BDC9 /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				DD220C6F1DA07591008CECAA /* AppDelegate.swift */,
-				DD220C711DA07591008CECAA /* ViewController.swift */,
+				DD220C711DA07591008CECAA /* RecordSoundsViewController.swift */,
+				DDB7FFE71DBC149A00E6BDC9 /* PlaySoundsViewController.swift */,
+				DDB7FFE91DBC30AA00E6BDC9 /* PlaySoundsViewController+Audio.swift */,
 				DD220C731DA07591008CECAA /* Main.storyboard */,
 				DD220C761DA07591008CECAA /* Assets.xcassets */,
 				DD220C781DA07591008CECAA /* LaunchScreen.storyboard */,
@@ -188,11 +194,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Arturo Reyes";
 				TargetAttributes = {
 					DD220C6B1DA0758F008CECAA = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = L49JS5X5VY;
 						ProvisioningStyle = Automatic;
 					};
 					DD220C7F1DA07591008CECAA = {
@@ -259,7 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD220C721DA07591008CECAA /* ViewController.swift in Sources */,
+				DD220C721DA07591008CECAA /* RecordSoundsViewController.swift in Sources */,
+				DDB7FFEA1DBC30AA00E6BDC9 /* PlaySoundsViewController+Audio.swift in Sources */,
+				DDB7FFE81DBC149A00E6BDC9 /* PlaySoundsViewController.swift in Sources */,
 				DD220C701DA07591008CECAA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,7 +333,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -332,7 +343,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -374,7 +390,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -382,7 +400,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -412,6 +435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L49JS5X5VY;
 				INFOPLIST_FILE = PitchPerfect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = reyes.PitchPerfect;
@@ -424,6 +448,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L49JS5X5VY;
 				INFOPLIST_FILE = PitchPerfect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = reyes.PitchPerfect;
@@ -505,6 +530,7 @@
 				DD220C961DA07592008CECAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD220C971DA07592008CECAA /* Build configuration list for PBXNativeTarget "PitchPerfectTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +539,7 @@
 				DD220C991DA07592008CECAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD220C9A1DA07592008CECAA /* Build configuration list for PBXNativeTarget "PitchPerfectUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +548,7 @@
 				DD220C9C1DA07592008CECAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
