@@ -1,6 +1,6 @@
 
-<img src="https://github.com/reyesm93/PitchPerfect/blob/master/README-images/pitchperfectrecord.png" width="180">
-<img src="https://github.com/reyesm93/PitchPerfect/blob/master/README-images/pitchperfectplay.png" width="180">
+<img src="https://github.com/reyesm93/PitchPerfect/blob/master/README-images/screenshot.png" width="400">
+
 
 # Pitch Perfect 
 
