@@ -1,8 +1,6 @@
-![alt text](https://github.com/reyesm93/PitchPerfect/blob/master/README-images/pitchperfectplay.png {width=100px height=200px})
-![alt text](https://github.com/reyesm93/PitchPerfect/blob/master/README-images/pitchperfectrecord.png {width=100px height=200px})
 
-<img src="https://github.com/reyesm93/PitchPerfect/blob/master/README-images/pitchperfectrecord.png" width="48">
-<img src="https://github.com/reyesm93/PitchPerfect/blob/master/README-images/pitchperfectrecord.png" width="48">
+<img src="https://github.com/reyesm93/PitchPerfect/blob/master/README-images/pitchperfectrecord.png" width="180">
+<img src="https://github.com/reyesm93/PitchPerfect/blob/master/README-images/pitchperfectplay.png" width="180">
 
 # Pitch Perfect 
 
